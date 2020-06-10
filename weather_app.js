@@ -24,7 +24,7 @@ const updateUI = (data) => {
     const iconSource = `https://cdn.jsdelivr.net/gh/AdeOmole/weather/${weather.WeatherIcon}.svg`;
     icon.setAttribute('src', iconSource);
 
-    let timerSource = weather.IsDayTime ? 'img/day.svg' : 'img/night.svg';
+    let timerSource = weather.IsDayTime ? 'https://cdn.jsdelivr.net/gh/AdeOmole/weather/day.svg' : 'https://cdn.jsdelivr.net/gh/AdeOmole/weather/night.svg';
 
     // let timerSource = null;
     // if(weather.IsDayTime){
