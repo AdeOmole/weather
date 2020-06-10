@@ -21,7 +21,7 @@ const updateUI = (data) => {
         </div>
     `;
     // update the night and day svg images
-    const iconSource = `img/icons/${weather.WeatherIcon}.svg`;
+    const iconSource = `https://cdn.jsdelivr.net/gh/AdeOmole/weather/${weather.WeatherIcon}.svg`;
     icon.setAttribute('src', iconSource);
 
     let timerSource = weather.IsDayTime ? 'img/day.svg' : 'img/night.svg';
